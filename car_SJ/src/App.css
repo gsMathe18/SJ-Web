@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input:not([type="checkbox"]),
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(10, 10, 10);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
